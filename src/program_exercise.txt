@@ -1,0 +1,270 @@
+Write a program to find area of circle
+   input: r (radius)
+
+Write a program to find simple interest for the given principal, interest rate and period.
+    SI = (PRINCIPAL * RATE * YEAR)/100
+
+Write a program to convert fahrenheit to celcius.
+	celcius = (fahrenheit - 32 ) / 1.8 
+
+Write a program to find whether the given number is odd or even
+
+Write a program to check wether the given year is leap year  or not.
+
+Program to find the largest number from  the given three numbers.
+   input: n1, n2, n3
+
+Write a program to find sum of natural numbers.
+   1+2+3+4+......+n
+
+Write a program to find sum of even numbers
+   0+2+4+....+n
+
+Write a program to find highest common factor( HCF ) for the given two numbers.
+  
+Write a program to find least common multiple( LCM )  for the given two numbers.
+
+
+Write a program to find average and sum for the given array of numbers.
+
+Write a program to print  first 1000 prime numbers
+
+Write a program to print first 1000 fibonacci series numbers
+
+Write a program to convert  an integer into binary value.
+   eg 15 => 1111
+	
+Write a program to convert a number(base could be 2 ,8,10,16) to another number(base could be 2,8,10,16)	
+	eg. decimal to binary
+	    binary to ocatal
+		decimal to hexa decimal
+
+Write a program to convert a binary string into a decimal value.
+	eg. "111" => 7
+
+Write a program to calculate sum of digits.
+	eg 357 => 3+5+7 = 15
+	
+Write a program to reverse the given number
+    eg  123=> 321
+
+Write a program to find whether the given number is power of 2 or not.
+
+Write a program  to check whether a number is armstrong or not. 
+    A number is armstrong if the sum of cubes of individual digits of a number is equal to the number itself
+
+
+Write a program to concatenate two integers.
+	eg 234 + 11 => 23411
+
+Write a program to test wether the given string is palindrome  or not.
+
+Write a method to change lower  case letters in a string to upper case letters.
+
+Write a program to convert a number in  string  to integer. Do not use any APIs.
+"248" = > 248
+
+Write a program to convert an integer number to string. Do not use any APIs.
+248 => "248"
+
+Write a simple  calculator  program to evaluate simple expressions like 
+	4*5 
+	6/3
+	Only four operators(/, *, + , -)  are allowed in the expressions.
+
+
+Write an function to check whether the input String is a number? 
+For example: "-3.3425","80.0", both of them are number
+
+
+Write a program  to check if the input string has redundant braces.
+((x+y)) - Has redundant braces. 
+(x+(y+z)) - This doesn't have redundant braces.
+
+
+
+Write a program to convert IP address into 32bit integer(network byte order).
+"192.168.1.2" => 33663168
+
+Write a program to convert  IP address 32bit integer(network byte order) into dotted notation.
+33663168  => "192.168.1.2"
+
+
+Write a program to check  if the value of a binary number (passed as a string) equals the hexadecimal 
+    representation of a string.
+    eg. "01001111" == "4F"
+
+Write a program to find number of 1's(binary 1's)  in an integer.
+ 		eg 4 -> 100 => there is one 1
+	   	   7 -  111 => there are three 1's
+
+Write a program to determine if a string has unique characters or not.
+	Note: Assume that all characters are ASCII only
+	eg.
+	Input: "write"
+	Output: unique
+
+	Input: program
+	Output: not unique(r appears two times)
+
+
+Write a program to count the number of 2' that appear in all the numbers between 0 and n.
+	eg.
+	Input: 25
+	Output: 9 (2, 12,20,21,22,23,24,25. note: 22 counts for two 2's)
+
+
+Write a program to add  two matrix
+
+Write a program to multiply two matrix
+
+Write a program to sort a set of numbers in ascending order(using bubble sort and quick sort)
+	Refer: http://en.wikipedia.org/wiki/Sorting_algorithm
+
+Write a program to find duplicate number in an array of numbers
+
+Write a program to find sum of two largest integer in an array .
+
+Write a program to find the number of occurances of a substring in a given string.
+	Input String : This is a test string
+	Substring    : is
+
+Write a  function to find the given number is  in the given sorted integer array using  binary search.
+	int hasNumber(int ary[], int aryLen, int num);
+
+	Input: ary - sorted array
+           aryLen  - array length
+	       num - number to be found in the array.
+
+	Output: should return 1 if numToFind is in the array  else return 0.
+
+
+Find the smallest distance between two neighbouring numbers in an array
+	Implement a Java function that finds two neighbouring numbers in an array with the smallest distance to each other.
+	The function should return the index of the first number.
+
+In the sequence 4 8 6 1 2 9 4 the minimum distance is 1 (between 1 and 2). The function should return the 
+    index 3 (of number 1).
+
+
+Convert a given number of bytes into a representation with metric units
+
+	A number of bytes given as a int value should be printed out with at most three digits before the decimal comma. 
+	The ouput for four different values:
+
+	123 Byte are 123.0 Byte
+	15323 Byte are 15.323 KByte
+	15323000 Byte are 15.323 MByte
+	1532300001 Byte are 1.532300001 GByte
+
+
+Write a program to swap the maximum and minimum elements in an integer array.
+
+Implement a function "void reverse(char[] ) " for reversing a given string. Do in-place reverse. Do no use 
+    another array.
+
+Given two strings, write a method to check if one is an anagram of the other.
+
+Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at 
+    the end of the string to hold the additional characters, and that you are given the true length of 
+	the string.(Use a character array so that you can  perform this operation in place)
+	eg
+	Input: "Mr John Smith   "
+	Outout: "Mr%20John%20Smith"
+
+
+
+Implement a method to performs run length encoding on the given string. It basically compresses the string using the number of repeated characters.  For example, 
+"deeggillmmmm" will become "d1e2g2i1l2m4". If the encoded string is larger  than the original string,it should 
+retain the original string.
+
+
+
+Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
+
+Write a program to reverse each word in a sentence stored in a character array. The sentence will be given as input.
+	Eg:  all is well -> lla si llew
+
+	Note: Do not use any java api, also do not  use another array
+
+
+You are given an array with integers between 1 and 1,000,000 both inclusive. One integer is in the array twice. Size of 
+array could be anything from 1, 1000000, but integers in the array will be within range of 1 and 1000000.  How can you determine which one? Can you think of a way to do it using  extra memory.
+For example
+{101, 455, 30 6001, 30, 10000}
+all the elements are within in the range of 1 to 1000000. 30 present in the array twice.
+
+
+
+You are given an array with integers between 1 and 1,000,000 both inclusive. One integer is missing. Size of the array is 1000000. Numbers are randomly added to the array , but there is one number is missing. The missing slot in the array has value of -1.  How can you determine which one? Can you think of a way to do it while iterating through the array only once. 
+
+Write a program to find the largest sum of contiguous integers in the array
+	Example: if the input is (-10, 2, 3, -2, 0, 5, -15), the largest sum is 8
+
+Write a program to  find frequency of characters in a string.(only ASCII caracters).
+	Hint: use character map array for efficient iteration
+	Example:
+	Input : "all is well"
+	Output:
+	a - 1
+	e - 1
+	i - 1
+	l - 4
+	s - 1
+	w - 1
+
+
+Write a program to find a number from the range of  1 to  1000   which has maximum number of divisors.
+
+Write a program to reverse the given integer array. It should be an  in-place reverse. Do not user another array.
+	[10,4,23,9,15] => [15, 9, 23, 4, 10]
+
+
+In a city, year of birth/death of people who where born and died between year 1900 to 2000 are given. Write an algorithm to find the year in which max people were alive.
+
+
+Given an integer array, sort the integer array such that the concatenated integer of the result array is max. e.g. [4, 94, 9, 14, 1] will be sorted to [9,94,4,14,1] where the result integer is 9944141.
+
+You are given a string. You need to find the longest substring with unique characters in O(n) time.
+
+----------
+
+Recursion:
+Write a program to  find factorial of a given number using recursion
+
+Write a program to print 1000th fibonacci  number using recursion
+
+Write a program to find HCF using recursion.
+http://www.cse.wustl.edu/~ychen/131/Notes/Recursion/recursion.html
+
+
+
+---------------------------------------------------------------------------
+
+Bitwise Operation
+
+http://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301
+http://www.scs.ryerson.ca/~mth110/Handouts/bitwise.pdf
+
+Use bitwise operators for solving the following problems.
+
+Write a program to find number of 1's in an integer.
+
+Write  one line  expression to find a number is power of 2 or not.
+
+Write a program to set n'th bit of an integer number(whether n'th bit 0 or 1 , make it as 1)
+
+Write a program to reset n'the bit of an integer number(whether n'th bit 0 or 1, make it as 0)
+
+Write a program to toggle n'the bit of an integer number(if n'th bit is 0 , make it as 1 vice versa)
+
+Write a method to convert 64bit long int in big endian  to 64bit little endian?
+
+Write a program to swap odd and even bits in an integer with as few instructions as 
+    possible(eg., bit 0 and bit 1 are swapped, bit 2 and bit3 are swapped, and so on)
+--------------------------------
+
+
+
+
+
