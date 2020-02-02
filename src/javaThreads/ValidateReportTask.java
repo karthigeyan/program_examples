@@ -3,11 +3,11 @@ package javaThreads;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class ValisateReportTask implements Runnable {
+public class ValidateReportTask implements Runnable {
 
     public static void main(String[] args) {
 
-        ValisateReportTask instance= new ValisateReportTask();
+        ValidateReportTask instance= new ValidateReportTask();
         instance.run();
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
