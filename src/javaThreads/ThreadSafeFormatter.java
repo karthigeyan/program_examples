@@ -29,6 +29,7 @@ public class ThreadSafeFormatter {
 //            Date birthDate = birthDateFromDB( id );
 //            final SimpleDateFormat df = ThreadSafeFormatter.dateFormatThreadLocal.get();
 //            return df.format(birthDate);
+            return "";
         }
     }
 }
