@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.XmlInlineBinaryData;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ThreadSafeFormatter {
+public class ThreadLocalSample {
 
     public static ThreadLocal<SimpleDateFormat> dateFormatThreadLocal = new ThreadLocal<SimpleDateFormat>(){
         @Override
