@@ -1,4 +1,4 @@
 package designPatterns.j2ee.business;
 
-public class BusinessDeligateP {
+public class BusinessDelegateP {
 }

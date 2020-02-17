@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44a667bc-6569-4271-bc6e-0eb8e73d0ded" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/designPatterns/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designPatterns/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/CommercialPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/DomesticPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/FactoryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/GetBillCalculatedMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/InstitutionalPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/Plan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designPatterns/creational/FactoryMethod.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,46 +27,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designPatterns/j2ee/presentation/CompositeViewP.java">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designPatterns/SuperInterface.java">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/AbstractFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/designPatterns/MainClass.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/FactoryMethod.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/Plan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/DomesticPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designPatterns/SuperClass.java">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/CommercialPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/GetBillCalculatedMainClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/InstitutionalPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +141,7 @@
       <find>clos</find>
       <find>close</find>
       <find>close()</find>
+      <find>domestic</find>
     </findStrings>
     <replaceStrings>
       <replace>return</replace>
@@ -107,13 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/common/interview/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/common/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/common/deepshallowcopy/Address.java" />
-        <option value="$PROJECT_DIR$/src/common/deepshallowcopy/Person.java" />
-        <option value="$PROJECT_DIR$/src/features8/LambdaExample.java" />
-        <option value="$PROJECT_DIR$/src/features8/InheritanceTest.java" />
         <option value="$PROJECT_DIR$/src/features8/interfaces/virtual/IComponent.java" />
         <option value="$PROJECT_DIR$/src/features8/interfaces/AddableImpl.java" />
         <option value="$PROJECT_DIR$/src/features8/trade/functions/BiFunctionTest.java" />
@@ -158,6 +199,13 @@
         <option value="$PROJECT_DIR$/src/designPatterns/j2ee/integration/WebServiceBrokerP.java" />
         <option value="$PROJECT_DIR$/src/designPatterns/SuperClass.java" />
         <option value="$PROJECT_DIR$/src/designPatterns/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/CommercialPlan.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/DomesticPlan.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/InstatutionalPlan.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/InstitutionalPlan.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/Plan.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/creational/factorymethod/GetBillCalculatedMainClass.java" />
       </list>
     </option>
   </component>
@@ -204,15 +252,60 @@
               <item name="program_examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="j2ee" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="program_examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="j2ee" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+              <item name="CommercialPlan" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+              <item name="DomesticPlan" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryMethod" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+              <item name="GetBillCalculatedMainClass" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+              <item name="Plan" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
@@ -220,13 +313,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="MainClass" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="SuperClass" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="program_examples" type="b2602c69:ProjectViewProjectNode" />
@@ -660,10 +746,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
-    <configuration name="DiskUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.DiskUsage" />
+  <component name="RunManager" selected="Application.GetBillCalculatedMainClass">
+    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.FileCopy" />
       <module name="program_examples" />
+      <option name="VM_PARAMETERS" value="$FileDir$.one.txt $FileDir$.two.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.*" />
@@ -674,13 +761,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.FileCopy" />
+    <configuration name="GetBillCalculatedMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.creational.factorymethod.GetBillCalculatedMainClass" />
       <module name="program_examples" />
-      <option name="VM_PARAMETERS" value="$FileDir$.one.txt $FileDir$.two.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="designPatterns.creational.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -728,19 +814,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DiskUsage" />
       <item itemvalue="Application.WordCount" />
       <item itemvalue="Application.TryWithResource" />
       <item itemvalue="Application.FileCopy" />
       <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.GetBillCalculatedMainClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetBillCalculatedMainClass" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.TryWithResource" />
         <item itemvalue="Application.FileCopy" />
         <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.DiskUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -762,7 +848,7 @@
       <workItem from="1581316695263" duration="1695000" />
       <workItem from="1581336919666" duration="3007000" />
       <workItem from="1581402388300" duration="796000" />
-      <workItem from="1581581332101" duration="21759000" />
+      <workItem from="1581581332101" duration="23786000" />
     </task>
     <task id="LOCAL-00001" summary="Java try with resource">
       <created>1581678050371</created>
@@ -775,13 +861,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34071000" />
+    <option name="totallyTimeSpent" value="36098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="46" width="1920" height="1034" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21291356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21291356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -790,7 +876,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3281768" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893278" visible="true" weight="0.23646408" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893278" visible="true" weight="0.23646408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39779004" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -889,40 +975,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="140" column="5" lean-forward="true" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtojava/two.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaThreads/ThreadClassesEX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/echo_concurrent/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/echo_concurrent/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4335">
@@ -966,27 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/FactoryMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1137,13 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designPatterns/j2ee/presentation/ViewHelporP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designPatterns/j2ee/business/ServiceLocatorP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1221,10 +1245,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designPatterns/j2ee/presentation/CompositeViewP.java">
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/SuperClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/j2ee/presentation/ViewHelporP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1235,26 +1283,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designPatterns/SuperClass.java">
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/j2ee/presentation/CompositeViewP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/InstitutionalPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designPatterns/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/CommercialPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/DomesticPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/FactoryMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/Plan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/creational/factorymethod/GetBillCalculatedMainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
