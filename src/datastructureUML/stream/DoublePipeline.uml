@@ -11,12 +11,6 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="java.util.stream.DoubleStream" target="java.util.stream.BaseStream">
-      <point x="0.0" y="-15.5" />
-      <point x="369.0" y="137.0" />
-      <point x="309.0" y="137.0" />
-      <point x="46.0" y="15.5" />
-    </edge>
     <edge source="java.util.stream.AbstractPipeline" target="java.util.stream.BaseStream">
       <point x="64.0" y="-15.5" />
       <point x="239.0" y="137.0" />
@@ -33,8 +27,14 @@
       <point x="87.0" y="137.0" />
       <point x="0.0" y="15.5" />
     </edge>
+    <edge source="java.util.stream.DoubleStream" target="java.util.stream.BaseStream">
+      <point x="0.0" y="-15.5" />
+      <point x="369.0" y="137.0" />
+      <point x="309.0" y="137.0" />
+      <point x="46.0" y="15.5" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="-3.5" y="96.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="96.5" />
   <SelectedNodes>
     <node>java.util.stream.DoubleStream</node>
   </SelectedNodes>
