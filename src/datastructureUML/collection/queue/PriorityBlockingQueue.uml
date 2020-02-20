@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.PriorityBlockingQueue</OriginalElement>
+  <nodes>
+    <node x="324.25" y="162.0">java.util.AbstractCollection</node>
+    <node x="176.0" y="243.0">java.lang.SuppressWarnings</node>
+    <node x="462.25" y="81.0">java.util.Collection</node>
+    <node x="388.0" y="243.0">java.util.AbstractQueue</node>
+    <node x="573.0" y="243.0">java.util.concurrent.BlockingQueue</node>
+    <node x="585.75" y="162.0">java.util.Queue</node>
+    <node x="471.25000000000006" y="0.0">java.lang.Iterable</node>
+    <node x="0.0" y="243.0">java.io.Serializable</node>
+    <node x="252.75" y="324.0">java.util.concurrent.PriorityBlockingQueue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.io.Serializable">
+      <point x="-88.875" y="-15.5" />
+      <point x="282.375" y="304.0" />
+      <point x="78.0" y="304.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="88.875" y="-15.5" />
+      <point x="460.125" y="304.0" />
+      <point x="655.5" y="304.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.AbstractQueue">
+      <point x="29.625" y="-15.5" />
+      <point x="400.875" y="294.0" />
+      <point x="470.5" y="294.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection">
+      <point x="-41.25" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable">
+      <point x="2.8421709430404007E-14" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.AbstractCollection" target="java.util.Collection">
+      <point x="0.0" y="-15.5" />
+      <point x="429.25" y="137.0" />
+      <point x="496.75" y="137.0" />
+      <point x="-34.5" y="15.5" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue">
+      <point x="0.0" y="-15.5" />
+      <point x="23.25" y="15.5" />
+    </edge>
+    <edge source="java.util.Queue" target="java.util.Collection">
+      <point x="0.0" y="-15.5" />
+      <point x="632.25" y="137.0" />
+      <point x="565.75" y="137.0" />
+      <point x="34.5" y="15.5" />
+    </edge>
+    <edge source="java.util.AbstractQueue" target="java.util.Queue">
+      <point x="41.25" y="-15.5" />
+      <point x="511.75" y="218.0" />
+      <point x="609.0" y="218.0" />
+      <point x="-23.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="369.0" y="177.5" />
+  <SelectedNodes>
+    <node>java.io.Serializable</node>
+    <node>java.util.concurrent.PriorityBlockingQueue</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

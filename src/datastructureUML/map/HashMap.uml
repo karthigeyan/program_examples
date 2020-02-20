@@ -11,6 +11,12 @@
   </nodes>
   <notes />
   <edges>
+    <edge source="java.util.HashMap" target="java.io.Serializable">
+      <point x="41.625" y="-15.5" />
+      <point x="306.125" y="142.0" />
+      <point x="395.0" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
     <edge source="java.util.HashMap" target="java.util.Map">
       <point x="13.875" y="-15.5" />
       <point x="278.375" y="132.0" />
@@ -36,12 +42,6 @@
       <point x="222.5" y="56.0" />
       <point x="251.54166666666666" y="56.0" />
       <point x="-18.75" y="15.5" />
-    </edge>
-    <edge source="java.util.HashMap" target="java.io.Serializable">
-      <point x="41.625" y="-15.5" />
-      <point x="306.125" y="142.0" />
-      <point x="395.0" y="142.0" />
-      <point x="0.0" y="15.5" />
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="236.5" y="96.5" />

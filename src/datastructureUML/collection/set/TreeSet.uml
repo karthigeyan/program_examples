@@ -75,7 +75,7 @@
       <point x="0.0" y="15.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="276.0" y="218.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="351.5" y="218.0" />
   <SelectedNodes>
     <node>java.util.SortedSet</node>
   </SelectedNodes>

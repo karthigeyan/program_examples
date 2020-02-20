@@ -1,6 +1,7 @@
 package common.random;
 
 import java.util.*;
+import java.util.concurrent.*;
 
 public class FindDuplicateCharacters{
 
@@ -16,9 +17,8 @@ public class FindDuplicateCharacters{
     public static void printDuplicateCharacters(String word) {
 
         char[] characters = word.toCharArray();
-
-
         // build HashMap with character and number of times they appear in String
+
         Map<Character, Integer> charMap = new HashMap<Character, Integer>();
         for (Character ch : characters) {
             if (charMap.containsKey(ch)) {

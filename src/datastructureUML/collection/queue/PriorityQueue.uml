@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.PriorityQueue</OriginalElement>
+  <nodes>
+    <node x="239.25" y="162.0">java.util.AbstractCollection</node>
+    <node x="85.74999999999997" y="324.0">java.util.PriorityQueue</node>
+    <node x="189.5" y="81.0">java.util.Collection</node>
+    <node x="176.0" y="243.0">java.util.AbstractQueue</node>
+    <node x="126.24999999999999" y="162.0">java.util.Queue</node>
+    <node x="198.5" y="0.0">java.lang.Iterable</node>
+    <node x="0.0" y="243.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.PriorityQueue" target="java.util.AbstractQueue">
+      <point x="41.25" y="-15.5" />
+      <point x="209.49999999999997" y="299.0" />
+      <point x="258.5" y="299.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection">
+      <point x="41.25" y="-15.5" />
+      <point x="299.75" y="218.0" />
+      <point x="344.25" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.PriorityQueue" target="java.io.Serializable">
+      <point x="-41.25" y="-15.5" />
+      <point x="126.99999999999997" y="299.0" />
+      <point x="78.0" y="299.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="java.util.AbstractCollection" target="java.util.Collection">
+      <point x="0.0" y="-15.5" />
+      <point x="344.25" y="137.0" />
+      <point x="293.0" y="137.0" />
+      <point x="34.5" y="15.5" />
+    </edge>
+    <edge source="java.util.Queue" target="java.util.Collection">
+      <point x="0.0" y="-15.5" />
+      <point x="172.75" y="137.0" />
+      <point x="224.0" y="137.0" />
+      <point x="-34.5" y="15.5" />
+    </edge>
+    <edge source="java.util.AbstractQueue" target="java.util.Queue">
+      <point x="-41.25" y="-15.5" />
+      <point x="217.25" y="218.0" />
+      <point x="172.75" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="225.0" y="177.5" />
+  <SelectedNodes>
+    <node>java.util.PriorityQueue</node>
+    <node>java.io.Serializable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
