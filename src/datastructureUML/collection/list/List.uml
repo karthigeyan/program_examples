@@ -3,27 +3,30 @@
   <ID>JAVA</ID>
   <OriginalElement>java.util.List</OriginalElement>
   <nodes>
-    <node x="27.0" y="162.0">java.util.List</node>
-    <node x="0.0" y="81.0">java.util.Collection</node>
-    <node x="9.0" y="0.0">java.lang.Iterable</node>
+    <node x="-94.0" y="740.0">java.util.List</node>
+    <node x="13.0" y="158.0">java.util.Collection</node>
+    <node x="29.0" y="0.0">java.lang.Iterable</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="java.util.List" target="java.util.Collection">
-      <point x="0.0" y="-15.5" />
-      <point x="0.0" y="15.5" />
-    </edge>
     <edge source="java.util.Collection" target="java.lang.Iterable">
-      <point x="0.0" y="-15.5" />
-      <point x="0.0" y="15.5" />
+      <point x="0.0" y="-266.5" />
+      <point x="0.0" y="54.0" />
+    </edge>
+    <edge source="java.util.List" target="java.util.Collection">
+      <point x="0.0" y="-379.0" />
+      <point x="0.0" y="266.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="69.0" y="96.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="69.0" y="1078.0" />
   <SelectedNodes>
     <node>java.util.List</node>
-    <node>java.lang.Iterable</node>
   </SelectedNodes>
-  <Categories />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>
