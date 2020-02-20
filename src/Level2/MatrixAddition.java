@@ -25,6 +25,9 @@ HOW?
 public class MatrixAddition {
 
 	public static int[][] addMatrix(int[][] matA, int[][] matB) {
+
+		System.out.println("Length row >> "	+matA.length);
+		System.out.println("Length column >> "	+matA[0].length);
 		
 		if( matA.length != matB.length || matA[0].length != matB[0].length) {
 			throw new IllegalArgumentException();

@@ -18,6 +18,7 @@ HOW?
 */
 
 import java.io.*;
+import java.util.Arrays;
 
 public class DiskUsage{
 
@@ -31,6 +32,12 @@ public class DiskUsage{
 		} else {  // it is a directory
 
 			File[] files = dir.listFiles();
+			Arrays.stream(files).map(file -> {
+				System.out.println(file.getName());
+				return file.listFiles();
+			});
+			Arrays.stream(files).forEach(System.out::println);
+			System.out.println("Length : "+ files.length);
 
 			for (File file : files) {
 				if (file.isFile()) {

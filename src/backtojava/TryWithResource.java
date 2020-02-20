@@ -28,24 +28,17 @@ public class TryWithResource  implements AutoCloseable{
 
     @Override
     public void close() throws Exception {
+
+
+
         System.out.println("Closed AutoCloseableResources_First");
     }
 
     public static void main(String[] args) {
 
-
         try {
             orderOfClosingResources();
         } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        try (Scanner scanner = new Scanner(new File("/work/study/java/program_examples/src/backtojava/one.txt"));
-             PrintWriter writer = new PrintWriter(new File("/work/study/java/program_examples/src/backtojava/two.txt"))) {
-            while (scanner.hasNext()) {
-                writer.print(scanner.nextLine());
-            }
-        } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }

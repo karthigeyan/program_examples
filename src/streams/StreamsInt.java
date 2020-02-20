@@ -11,6 +11,7 @@ public class StreamsInt {
         System.out.println(IntStream.of(number).min().getAsInt());
         IntStream.of(number).min().ifPresent(data -> System.out.println(data));
         IntStream.of(number).min().ifPresent(System.out::println);
+        Object st = new Object();
 
         IntSummaryStatistics statistics = IntStream.of(number).summaryStatistics();
         System.out.println(statistics);
