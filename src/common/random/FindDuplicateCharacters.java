@@ -17,6 +17,7 @@ public class FindDuplicateCharacters{
 
         char[] characters = word.toCharArray();
 
+
         // build HashMap with character and number of times they appear in String
         Map<Character, Integer> charMap = new HashMap<Character, Integer>();
         for (Character ch : characters) {
