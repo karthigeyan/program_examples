@@ -3,33 +3,33 @@
   <ID>JAVA</ID>
   <OriginalElement>java.util.HashSet</OriginalElement>
   <nodes>
-    <node x="268.25" y="324.0">java.util.HashSet</node>
-    <node x="296.75" y="243.0">java.lang.Cloneable</node>
-    <node x="0.0" y="162.0">java.util.AbstractCollection</node>
-    <node x="116.25000000000003" y="81.0">java.util.Collection</node>
-    <node x="68.25000000000003" y="243.0">java.util.AbstractSet</node>
-    <node x="230.00000000000003" y="162.0">java.util.Set</node>
-    <node x="125.25000000000003" y="0.0">java.lang.Iterable</node>
-    <node x="445.75" y="243.0">java.io.Serializable</node>
+    <node x="264.0" y="324.0">java.util.HashSet</node>
+    <node x="256.75" y="162.0">java.util.AbstractCollection</node>
+    <node x="176.0" y="243.0">java.lang.Cloneable</node>
+    <node x="375.0" y="81.0">java.util.Collection</node>
+    <node x="325.0" y="243.0">java.util.AbstractSet</node>
+    <node x="486.75" y="162.0">java.util.Set</node>
+    <node x="384.0" y="0.0">java.lang.Iterable</node>
+    <node x="0.0" y="243.0">java.io.Serializable</node>
   </nodes>
   <notes />
   <edges>
     <edge source="java.util.HashSet" target="java.util.AbstractSet">
-      <point x="-41.625" y="-15.5" />
-      <point x="282.125" y="304.0" />
-      <point x="141.75000000000003" y="304.0" />
+      <point x="13.875" y="-15.5" />
+      <point x="333.375" y="294.0" />
+      <point x="398.5" y="294.0" />
       <point x="0.0" y="15.5" />
     </edge>
     <edge source="java.util.HashSet" target="java.util.Set">
-      <point x="-13.875" y="-15.5" />
-      <point x="309.875" y="294.0" />
-      <point x="286.25" y="294.0" />
+      <point x="41.625" y="-15.5" />
+      <point x="361.125" y="304.0" />
+      <point x="543.0" y="304.0" />
       <point x="18.75" y="15.5" />
     </edge>
     <edge source="java.util.Set" target="java.util.Collection">
       <point x="0.0" y="-15.5" />
-      <point x="267.5" y="137.0" />
-      <point x="219.75000000000003" y="137.0" />
+      <point x="524.25" y="137.0" />
+      <point x="478.5" y="137.0" />
       <point x="34.5" y="15.5" />
     </edge>
     <edge source="java.util.Collection" target="java.lang.Iterable">
@@ -38,20 +38,20 @@
     </edge>
     <edge source="java.util.AbstractSet" target="java.util.Set">
       <point x="36.75" y="-15.5" />
-      <point x="178.50000000000003" y="218.0" />
-      <point x="248.75000000000003" y="218.0" />
+      <point x="435.25" y="218.0" />
+      <point x="505.5" y="218.0" />
       <point x="-18.75" y="15.5" />
     </edge>
     <edge source="java.util.HashSet" target="java.lang.Cloneable">
-      <point x="13.875" y="-15.5" />
-      <point x="337.625" y="294.0" />
-      <point x="361.25" y="294.0" />
+      <point x="-13.875" y="-15.5" />
+      <point x="305.625" y="294.0" />
+      <point x="240.5" y="294.0" />
       <point x="0.0" y="15.5" />
     </edge>
     <edge source="java.util.AbstractCollection" target="java.util.Collection">
       <point x="0.0" y="-15.5" />
-      <point x="105.0" y="137.0" />
-      <point x="150.75000000000003" y="137.0" />
+      <point x="361.75" y="137.0" />
+      <point x="409.5" y="137.0" />
       <point x="-34.5" y="15.5" />
     </edge>
     <edge source="java.util.AbstractSet" target="java.util.AbstractCollection">
@@ -59,13 +59,13 @@
       <point x="0.0" y="15.5" />
     </edge>
     <edge source="java.util.HashSet" target="java.io.Serializable">
-      <point x="41.625" y="-15.5" />
-      <point x="365.375" y="304.0" />
-      <point x="523.75" y="304.0" />
+      <point x="-41.625" y="-15.5" />
+      <point x="277.875" y="304.0" />
+      <point x="78.0" y="304.0" />
       <point x="0.0" y="15.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="301.0" y="177.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="281.0" y="177.5" />
   <SelectedNodes>
     <node>java.util.HashSet</node>
   </SelectedNodes>

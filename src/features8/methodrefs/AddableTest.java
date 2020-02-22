@@ -1,5 +1,6 @@
 package features8.methodrefs;
 
+import java.util.Comparator;
 import java.util.function.Consumer;
 
 
@@ -9,13 +10,14 @@ import java.util.function.Consumer;
  */
 public class AddableTest {
 
+    // Comparable
+    // Comparator
     IAddable addable = (a, b) -> a+b;
     IAddable addableViaMethodReference = this::addThemUp;
     IAddable addableViaMethodReference2 = Integer::sum;
     IAddable addableViaMethodReference3 = AddableUtil::addThemUp;
     IAddable addableViaMethodReference4 = new AddableUtil2()::addThemUp;
 
-  
     private int addThemUp(int i1, int i2){
         return i1*i2;
     }
