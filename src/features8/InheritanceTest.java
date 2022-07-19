@@ -7,6 +7,7 @@ public class InheritanceTest {
             return "Person";
         }
     }
+    
     interface Faculty extends Person{
         default public String getName(){
             return "Faculty";
