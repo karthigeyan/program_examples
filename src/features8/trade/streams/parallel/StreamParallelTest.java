@@ -5,11 +5,12 @@
  */
 package features8.trade.streams.parallel;
 
-import features8.trade.Trade;
-import features8.trade.util.TradeUtil;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
+
+import features8.trade.Trade;
+import features8.trade.util.TradeUtil;
 
 
 /**

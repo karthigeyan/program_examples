@@ -15,7 +15,7 @@ HOW?
 7. done
 
 */
-import java.io.*;
+import java.io.File;
 public class FindFile {
 
 	public static void findFile(File  dir, final String pattern) {

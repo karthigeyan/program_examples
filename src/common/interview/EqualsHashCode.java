@@ -1,10 +1,10 @@
 package common.interview;
 
-import common.modal.RecordNote;
-import common.modal.Student;
-
 import java.util.HashMap;
 import java.util.Map;
+
+import common.modal.RecordNote;
+import common.modal.Student;
 
 public class EqualsHashCode {
 

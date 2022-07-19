@@ -12,8 +12,14 @@ ToDo:
 */
 
 
-import java.io.*;
-import java.net.*;
+import java.io.BufferedOutputStream;
+import java.io.Closeable;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.Socket;
 public class HttpClient {
 
 	public static void getRequest(String host, int port, String infile, String outfile) {

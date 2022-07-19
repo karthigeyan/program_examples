@@ -6,13 +6,13 @@
 
 package features8.trade.reduce;
 
-import features8.trade.Trade;
-import features8.trade.util.TradeUtil;
-
 import java.util.List;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Stream;
+
+import features8.trade.Trade;
+import features8.trade.util.TradeUtil;
 
 /**
  *

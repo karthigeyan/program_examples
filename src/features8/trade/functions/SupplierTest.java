@@ -6,10 +6,11 @@
 
 package features8.trade.functions;
 
-import features8.trade.Trade;
-import features8.trade.util.TradeUtil;
 import java.util.List;
 import java.util.function.Supplier;
+
+import features8.trade.Trade;
+import features8.trade.util.TradeUtil;
 
 /**
  *

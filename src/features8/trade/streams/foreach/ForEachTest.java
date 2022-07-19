@@ -6,10 +6,11 @@
 
 package features8.trade.streams.foreach;
 
-import features8.trade.Trade;
-import features8.trade.util.TradeUtil;
 import java.util.List;
 import java.util.function.Consumer;
+
+import features8.trade.Trade;
+import features8.trade.util.TradeUtil;
 
 /**
  *

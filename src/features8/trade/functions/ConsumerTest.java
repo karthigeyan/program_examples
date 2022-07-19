@@ -6,8 +6,9 @@
 
 package features8.trade.functions;
 
-import features8.trade.Trade;
 import java.util.function.Consumer;
+
+import features8.trade.Trade;
 
 /**
  *

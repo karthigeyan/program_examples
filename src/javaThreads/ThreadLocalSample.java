@@ -1,8 +1,6 @@
 package javaThreads;
 
-import javax.xml.bind.annotation.XmlInlineBinaryData;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class ThreadLocalSample {
 

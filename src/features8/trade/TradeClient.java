@@ -5,8 +5,9 @@
  */
 package features8.trade;
 
-import features8.trade.util.TradeUtil;
 import java.util.List;
+
+import features8.trade.util.TradeUtil;
 
 /**
  *

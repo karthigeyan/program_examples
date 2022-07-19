@@ -6,12 +6,14 @@
 
 package features8.trade.streams.collect;
 
-import features8.trade.Trade;
-import features8.trade.util.TradeUtil;
+import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.toList;
+
 import java.util.List;
 import java.util.Map;
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.groupingBy;
+
+import features8.trade.Trade;
+import features8.trade.util.TradeUtil;
 
 /**
  *

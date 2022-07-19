@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package features8.interfaces;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Base64;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import features8.trade.Trade;
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
 
 /**
  *
@@ -29,14 +27,12 @@ public class AddableImpl {
     IAddable upperCaseAdder = (t1, t2) -> (t1 + t2).toUpperCase();
     IAddable concatStringsUsingApiMethod = (t1, t2) -> t1.concat(t2);
     IAddable replaceStringsUsingApiMethod = (t1, t2) -> t1.replaceAll(t1, t2);
-    BASE64Encoder encoder = new BASE64Encoder();
-    BASE64Decoder deccoder = new BASE64Decoder();
         
     IAddable encode = (t1, t2) -> {
         final String DEFAULT_ENCODING = t1;
         String encodedString = null;
         try {
-            encodedString = encoder.encode(t2.getBytes(DEFAULT_ENCODING));
+            encodedString = Base64.getEncoder().encodeToString(t2.getBytes(DEFAULT_ENCODING));
         } catch (UnsupportedEncodingException ex) {
             Logger.getLogger(AddableImpl.class.getName()).log(Level.SEVERE, null, ex);
         }

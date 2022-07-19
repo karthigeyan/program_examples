@@ -6,8 +6,6 @@
 
 package features8.methodrefs;
 
-import java.util.List;
-
 /**
  *
  * @author mkonda

@@ -5,13 +5,14 @@
  */
 package features8.trade.streams.map;
 
-import features8.trade.Trade;
-import features8.trade.util.TradeUtil;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Stream;
+
+import features8.trade.Trade;
+import features8.trade.util.TradeUtil;
 
 /**
  *

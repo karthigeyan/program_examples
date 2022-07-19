@@ -1,11 +1,5 @@
 package backtojava;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.util.Objects;
-import java.util.Scanner;
-
 public class TryWithResource  implements AutoCloseable{
 
     public TryWithResource() {

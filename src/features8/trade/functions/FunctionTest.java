@@ -6,10 +6,11 @@
 
 package features8.trade.functions;
 
-import features8.trade.Trade;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
+
+import features8.trade.Trade;
 
 /**
  *

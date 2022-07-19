@@ -5,13 +5,12 @@
  */
 package features8.trade.streams.filters;
 
-import features8.trade.Trade;
-import features8.trade.util.TradeUtil;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.function.Consumer;
-import java.util.stream.Stream;
+
+import features8.trade.Trade;
+import features8.trade.util.TradeUtil;
 
 /**
  *

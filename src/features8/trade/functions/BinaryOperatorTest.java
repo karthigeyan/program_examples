@@ -5,10 +5,9 @@
  */
 package features8.trade.functions;
 
-import features8.trade.Trade;
-
-import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
+
+import features8.trade.Trade;
 
 /**
  *

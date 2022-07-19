@@ -5,15 +5,15 @@
  */
 package features8.trade.streams;
 
-import features8.trade.Trade;
-import features8.trade.util.TradeUtil;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
+
+import features8.trade.Trade;
+import features8.trade.util.TradeUtil;
 
 /**
  *

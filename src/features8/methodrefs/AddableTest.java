@@ -1,9 +1,5 @@
 package features8.methodrefs;
 
-import java.util.Comparator;
-import java.util.function.Consumer;
-
-
 /**
  *
  * @author mkonda

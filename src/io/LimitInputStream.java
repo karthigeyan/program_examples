@@ -16,8 +16,8 @@ It extends the FilterInputStream  and override the following methods
 */
 
 
-import java.io.FilterInputStream;
 import java.io.FileInputStream;
+import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
