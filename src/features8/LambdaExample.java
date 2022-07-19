@@ -7,11 +7,7 @@ interface TestInterface{
 public class LambdaExample {
 
     public static void main(String[] args) {
-        /*int num = 7;
-        TestInterface ref = (x, y) -> {
-            // Modifying value of enclosing scope field
-            num = x + y;
-            return num;
-        };*/
+        TestInterface ref = (x, y) -> x + y ;
+        System.out.println(ref.calculate(2, 4));
     }
 }
