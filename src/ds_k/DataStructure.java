@@ -1,8 +1,18 @@
 package ds_k;
 
-import sun.reflect.generics.tree.Tree;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Stack;
+import java.util.TreeMap;
+import java.util.TreeSet;
 
-import java.util.*;
+//import sun.reflect.generics.tree.Tree;
 
 public class DataStructure {
     public static void main(String[] args) {
@@ -23,12 +33,12 @@ public class DataStructure {
         TreeMap treeMap = new TreeMap();
 
 
-        Tree tree = new Tree() {
-            @Override
-            public int hashCode() {
-                return super.hashCode();
-            }
-        };
+//        Tree tree = new Tree() {
+//            @Override
+//            public int hashCode() {
+//                return super.hashCode();
+//            }
+//        };
 
     }
 }
